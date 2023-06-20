@@ -91,3 +91,10 @@
         width: 80%;
     }
 }
+
+@media (max-width: 450px) {
+    .title {
+        font-size: 30px;
+    }
+
+}
