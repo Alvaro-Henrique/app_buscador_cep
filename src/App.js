@@ -1,8 +1,7 @@
 import { FiSearch } from 'react-icons/fi';
 import './styles.css';
 import { useState } from 'react';
-
-import api from './services/api';
+import axios from 'axios';
 
 export default function App() {
 
@@ -13,7 +12,7 @@ export default function App() {
     if (input === '') return alert('Preencha um cep válido')
 
     try {
-      const response = await api.get(`${input}/json`)
+      const response = await axios.get(`http://viacep.com.br/ws/${input}/json`)
         setCep(response.data)
         setInput('')
     } catch (error) {
