@@ -31,6 +31,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 </p>
 
 ## Link do projeto hospedado
-<a href="https://app-buscador-cep.vercel.app"/>Buscador CEP</a>
+<a href="https://app-buscador-cep.vercel.app" target="_blank"/>Buscador CEP</a>
 
 
